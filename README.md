@@ -1,4 +1,10 @@
 <div align=center>
+  <img align='center' src='./image.png' width=164 />
+</div>
+
+
+
+<div align=center>
   <h1>
     University Software Dev Workshops
   </h1>
