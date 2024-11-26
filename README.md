@@ -14,6 +14,9 @@
   <a href="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/python-app.yml">
     <img src="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/python-app.yml/badge.svg"/>
   </a>
+  <a href="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/codeql.yml">
+    <img src="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/codeql.yml/badge.svg"/>
+  </a>
 </div>
 
 ## Purpose
