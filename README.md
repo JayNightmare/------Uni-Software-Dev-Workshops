@@ -10,6 +10,12 @@
   </h1>
 </div>
 
+<div align=center>
+  <a href="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/python-app.yml">
+    <img src="https://github.com/JayNightmare/University-Software-Dev-Workshops/actions/workflows/python-app.yml/badge.svg"/>
+  </a>
+</div>
+
 ## Purpose
 Stores my university workshops.
 
