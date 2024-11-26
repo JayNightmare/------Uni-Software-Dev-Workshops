@@ -2,6 +2,7 @@ import requests
 import json
 
 API_URL = 'https://api.escuelajs.co/api/v1/products/'
+product_id = 14
 
 try:
     new_product_update = { "title": "Change title", "price": 100 }
