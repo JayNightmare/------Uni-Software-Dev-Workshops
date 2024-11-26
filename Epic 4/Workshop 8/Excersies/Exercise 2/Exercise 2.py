@@ -6,7 +6,7 @@ TFL_API_URL = f'https://api.tfl.gov.uk/StopPoint/{STOP_CODE}/arrivals'
 def can_catch_bus(walk_time_minutes=12):
     try:
         response = requests.get(TFL_API_URL)
-        response.raise_for_status()  # Raise error for bad HTTP responses (4xx or 5xx)
+        response.raise_for_status()
         buses = response.json()
 
         bus_57_arrivals = [bus for bus in buses if bus['lineId'] == '57']
@@ -20,7 +20,7 @@ def can_catch_bus(walk_time_minutes=12):
 
         # Get the first bus arrival
         next_bus = bus_57_arrivals[0]
-        arrival_time_minutes = next_bus['timeToStation'] // 60  # Convert seconds to minutes
+        arrival_time_minutes = next_bus['timeToStation'] // 60
 
         print(f"Next 57 bus arrives in {arrival_time_minutes} minutes.")
         if arrival_time_minutes <= walk_time_minutes:
