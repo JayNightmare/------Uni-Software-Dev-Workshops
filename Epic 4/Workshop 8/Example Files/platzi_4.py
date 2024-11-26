@@ -2,9 +2,10 @@ import requests
 import json
 
 API_URL = 'https://api.escuelajs.co/api/v1/products/'
+product_id = 14
 
 try:
-    response = requests.delete(f"{API_URL}{product_id}")
+    response = requests.delete(f"{API_URL}/{product_id}")
     print(f"Status code: {response.status_code}")
     if response.text == "true":
         print("Product deleted")
