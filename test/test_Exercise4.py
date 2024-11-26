@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from Exercises.Exercise_4.Exercise4 import shorten_url
+from Epic_4.Workshop_8.Exercises.Exercise_4.Exercise4 import shorten_url
 
 @patch("Exercise4.Exercise4.requests.post")
 def test_shorten_url(mock_post):

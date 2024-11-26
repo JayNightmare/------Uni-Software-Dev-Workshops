@@ -2,7 +2,7 @@ import os
 import csv
 import pytest
 from unittest.mock import patch
-from Exercises.Exercise_1.CSV import create_products_from_csv
+from Epic_4.Workshop_8.Exercises.Exercise_1.CSV import create_products_from_csv
 
 def test_create_csv_file():
     test_csv = "test_products.csv"

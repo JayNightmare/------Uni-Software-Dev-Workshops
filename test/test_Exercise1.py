@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from Excersies.Exercise_1.Exercise1 import view_product, filter_by_price, filter_by_category
+from Epic_4.Workshop_8.Exercises.Exercise_1.Exercise1 import view_product, filter_by_price, filter_by_category
 
 @patch("Exercise1.Exercise1.requests.get")
 def test_view_product(mock_get):

@@ -1,5 +1,5 @@
 from unittest.mock import patch
-from Exercises.Exercise_2.Exercise2 import can_catch_bus
+from Epic_4.Workshop_8.Exercises.Exercise_2.Exercise2 import can_catch_bus
 
 @patch("Exercise2.Exercise2.requests.get")
 def test_can_catch_bus(mock_get):

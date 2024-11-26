@@ -1,6 +1,6 @@
 import json
 import pytest
-from Exercises.Exercise_3.Exercise3 import gbp_to_target
+from Epic_4.Workshop_8.Exercises.Exercise_3.Exercise3 import gbp_to_target
 
 @pytest.fixture
 def sample_data():
