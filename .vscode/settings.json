@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./",  // Root directory
-        "./Exercises"  // Path to the modules
-    ]
-}
